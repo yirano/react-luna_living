@@ -5,8 +5,10 @@ import './Hero.css';
 export default function Hero() {
 	return (
 		<section className="hero">
-			<h2 className="heroTitle">Lorem ipsum dolor sit</h2>
-			<img src={HeroImg} alt="Lounge chair" />
+			<div className="heroContainer">
+				<h2 className="heroTitle">Lorem ipsum dolor sit</h2>
+				<img src={HeroImg} alt="Lounge chair" />
+			</div>
 		</section>
 	);
 }

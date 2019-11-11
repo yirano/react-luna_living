@@ -1,21 +1,28 @@
 .hero {
-	height: 85vh;
-	overflow: hidden;
-	position: relative;
+	max-height: 600px;
+	padding: 40px 60px;
 }
 
-.hero img {
-	width: 100%;
+.heroContainer {
 	position: relative;
-	top: -250px;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 1440px;
+	max-height: 600px;
+}
+
+.heroContainer img {
+	position: relative;
+	width: 100%;
 }
 
 .heroTitle {
 	position: absolute;
-	top: 120px;
+	top: 220px;
 	left: 220px;
 	z-index: 9999;
 	font-weight: 700;
 	width: 25%;
 	text-transform: uppercase;
+	overflow: hidden;
 }
