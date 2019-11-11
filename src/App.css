@@ -1,1 +1,21 @@
+:root {
+	--black: #0e0f25;
+	--blue-grey: #6b7e87;
+	--white: #f0f2eb;
+}
 
+*,
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+main {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 3.1em;
+}
