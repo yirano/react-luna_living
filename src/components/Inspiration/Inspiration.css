@@ -1,0 +1,15 @@
+.inspiration {
+	display: flex;
+	max-width: 1300px;
+	margin: 0 auto;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+}
+
+.inspiration img {
+	width: auto;
+	min-height: 100px;
+	height: 250px;
+	margin: 0 8px;
+}
