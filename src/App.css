@@ -14,8 +14,12 @@ html {
 
 main {
 	font-family: 'Open Sans', sans-serif;
+	color: var(--black);
 }
 
 h1 {
 	font-size: 3.1em;
+}
+h2 {
+	font-size: 2.9em;
 }

@@ -1,0 +1,21 @@
+.hero {
+	height: 85vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.hero img {
+	width: 100%;
+	position: relative;
+	top: -250px;
+}
+
+.heroTitle {
+	position: absolute;
+	top: 120px;
+	left: 220px;
+	z-index: 9999;
+	font-weight: 700;
+	width: 25%;
+	text-transform: uppercase;
+}
