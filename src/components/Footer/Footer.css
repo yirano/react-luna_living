@@ -1,0 +1,54 @@
+footer {
+	display: flex;
+	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer div {
+	padding: 30px 90px;
+}
+
+footer ul {
+	list-style: none;
+	line-height: 1.5em;
+}
+
+footer h4 {
+	margin-bottom: 2px;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+footer a {
+	text-decoration: none;
+	color: var(--black);
+}
+
+@media only screen and (max-width: 768px) {
+	footer {
+		flex-flow: column;
+	}
+
+	footer div {
+		padding: 10px 90px;
+	}
+
+	footer ul,
+	footer li,
+	footer h4 {
+		display: inline;
+	}
+
+	footer li {
+		padding: 0 4px;
+	}
+
+	footer li::after {
+		content: '|';
+		padding-left: 7px;
+	}
+
+	footer h4 {
+		margin-right: 5px;
+	}
+}

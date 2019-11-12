@@ -8,6 +8,7 @@ export default function NewItems() {
 		<section className="newItems">
 			<div className="newLeftWrapper">
 				<img src={ColorfulChair} alt="Colorful Chairs" />
+				<h3>Lorem Ipsum dolor sit</h3>
 			</div>
 			<div className="newRightWrapper">
 				<img src={FloralWallpaper} alt="Floral Wallpaper" />

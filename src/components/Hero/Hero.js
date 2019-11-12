@@ -6,8 +6,8 @@ export default function Hero() {
 	return (
 		<section className="hero">
 			<div className="heroContainer">
-				<h2 className="heroTitle">Lorem ipsum dolor sit</h2>
 				<img src={HeroImg} alt="Lounge chair" />
+				<h2 className="heroTitle">Lorem ipsum dolor sit</h2>
 			</div>
 		</section>
 	);

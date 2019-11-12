@@ -19,11 +19,6 @@ main {
 	padding-bottom: 200px;
 }
 
-section {
-	margin-bottom: 60px;
-	padding: 40px 0;
-}
-
 h1 {
 	font-size: 3.1em;
 }
@@ -32,4 +27,11 @@ h2 {
 }
 h3 {
 	font-size: 2.2em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: var(--black);
 }

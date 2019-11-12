@@ -5,6 +5,7 @@
 
 .heroContainer {
 	position: relative;
+	display: flex;
 	overflow: hidden;
 	margin: 0 auto;
 	max-width: 1440px;
@@ -18,11 +19,26 @@
 
 .heroTitle {
 	position: absolute;
-	top: 220px;
+	top: 29%;
 	left: 220px;
 	z-index: 9999;
 	font-weight: 700;
-	width: 25%;
+	width: 300px;
 	text-transform: uppercase;
 	overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+	.heroTitle {
+		font-size: 2em;
+		left: 66px;
+		top: 93px;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.heroTitle {
+		font-size: 1.3em;
+	}
 }

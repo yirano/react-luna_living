@@ -1,5 +1,6 @@
 .inspiration {
 	text-align: center;
+	margin-bottom: 80px;
 }
 
 .inspiration h3 {
@@ -8,24 +9,62 @@
 
 .imgCardContainer {
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: center;
+	margin: 0 12px;
 }
 
 .imgCard {
-	height: 239px;
-	overflow: hidden;
-	width: 350px;
-	margin: 10px;
+	margin: 3px;
+	display: flex;
+	justify-content: center;
 }
 
-.imgCard img {
-	width: 100%;
+.imgCard:nth-child(1),
+.imgCard:nth-child(3) {
+	overflow: hidden;
+	height: 292px;
+	width: 443px;
+}
+
+.imgCard:nth-child(2) {
+	height: 291px;
+	width: 220px;
+	overflow: hidden;
+}
+
+.imgCard img:nth-child(1),
+.imgCard img:nth-child(3) {
+	height: 100%;
+}
+
+.imgCard img:nth-child(2) {
+	height: 100%;
 }
 
 @media only screen and (max-width: 768px) {
-	.imgCard {
+	.imgCard:nth-child(1),
+	.imgCard:nth-child(3) {
+		height: 100%;
+		width: 100vw;
+	}
+
+	.imgCard img:nth-child(1),
+	.imgCard img:nth-child(3) {
 		width: 100%;
-		max-height: 300px;
+		height: auto;
+	}
+	.imgCard:nth-child(2) {
+		height: 100%;
+		width: 100vw;
+	}
+
+	.imgCard img:nth-child(2) {
+		height: auto;
+		width: 100%;
+	}
+
+	.imgCardContainer {
+		flex-wrap: wrap;
 	}
 }
