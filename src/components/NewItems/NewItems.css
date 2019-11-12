@@ -42,6 +42,13 @@
 	flex-basis: 32.6%;
 }
 
+@media only screen and (max-width: 1024px) {
+	.newItems {
+		margin: 0;
+		padding: 10px 0;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.newRightWrapper {
 		display: none;
