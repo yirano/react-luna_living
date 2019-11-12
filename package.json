@@ -2,6 +2,7 @@
 	"name": "luna-living",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://yirano.github.io/react-luna_living",
 	"dependencies": {
 		"gh-pages": "^2.1.1",
 		"react": "^16.11.0",
@@ -13,22 +14,14 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "yarn deploy",
+		"predeploy": "yarn run build",
 		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
 	},
 	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
+		"production": [ ">0.2%", "not dead", "not op_mini all" ],
+		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
 	}
 }
