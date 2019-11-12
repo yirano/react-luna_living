@@ -1,0 +1,86 @@
+.deals {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.timer {
+	background-color: var(--black);
+	color: var(--white);
+	width: 100%;
+	text-align: center;
+}
+
+.timer h3 {
+	font-weight: 400;
+	font-size: 1.6em;
+	padding: 3px 0;
+}
+
+.dealsBody {
+	width: 100%;
+	text-align: center;
+}
+
+.dealsBody h3 {
+	color: var(--red);
+	margin: 4px 0;
+}
+
+.dealsBody button {
+	width: 140px;
+	background-color: var(--black);
+	color: var(--white);
+	padding: 8px 12px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.cardContainer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.cardImg {
+	overflow: hidden;
+}
+
+.cardImg img {
+	width: 140%;
+}
+
+.card {
+	background-color: var(--white);
+	width: 260px;
+	margin: 20px 10px;
+}
+
+.cardText {
+	padding: 20px 9px;
+	height: 150px;
+	line-height: 1.8em;
+}
+
+.card h4 {
+	font-size: 1.4em;
+	font-weight: 400;
+}
+
+.price {
+	color: var(--red);
+	margin-top: 20px;
+}
+
+.card h5 {
+	text-decoration: line-through;
+	font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+	.card {
+		width: 500px;
+	}
+}

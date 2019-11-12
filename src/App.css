@@ -2,6 +2,7 @@
 	--black: #0e0f25;
 	--blue-grey: #6b7e87;
 	--white: #f0f2eb;
+	--red: #ff1d25;
 }
 
 *,
@@ -15,6 +16,12 @@ html {
 main {
 	font-family: 'Open Sans', sans-serif;
 	color: var(--black);
+	padding-bottom: 200px;
+}
+
+section {
+	margin-bottom: 60px;
+	padding: 40px 0;
 }
 
 h1 {

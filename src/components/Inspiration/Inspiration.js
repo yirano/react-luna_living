@@ -8,10 +8,16 @@ export default function Inspiration() {
 	return (
 		<section className="inspiration">
 			<h3>Stay Inspired!</h3>
-			<div className="inspirationImgWrapper">
-				<img src={Aerial} alt="View from up top" />
-				<img src={Lights} alt="Hanging lights" />
-				<img src={Colorful} alt="Colorful furniture" />
+			<div className="imgCardContainer">
+				<div className="imgCard">
+					<img src={Aerial} alt="View from up top" />
+				</div>
+				<div className="imgCard">
+					<img src={Lights} alt="Hanging lights" />
+				</div>
+				<div className="imgCard">
+					<img src={Colorful} alt="Colorful furniture" />
+				</div>
 			</div>
 		</section>
 	);

@@ -4,8 +4,8 @@
 	text-align: center;
 	justify-content: center;
 	padding: 30px 0;
-	width: 80%;
-	max-width: 1300px;
+	max-width: 1140px;
+	flex-wrap: wrap;
 }
 
 .newLeftWrapper h3 {
@@ -16,9 +16,8 @@
 }
 
 .newItems img {
-	width: 100%;
-	min-height: 300px;
-	height: 100%;
+	max-height: 400px;
+	width: auto;
 }
 
 .newItems h3 {
@@ -29,4 +28,15 @@
 .newLeftWrapper,
 .newRightWrapper {
 	margin: 0 15px;
+	display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+	.newRightWrapper {
+		display: none;
+	}
+	.newItems img {
+		height: auto;
+		width: 100%;
+	}
 }
