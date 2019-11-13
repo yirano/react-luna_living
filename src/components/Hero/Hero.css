@@ -12,8 +12,13 @@
 	max-height: 600px;
 }
 
+.heroImg {
+	overflow: hidden;
+	max-height: 600px;
+	min-height: 200px;
+}
+
 .heroContainer img {
-	position: relative;
 	width: 100%;
 }
 

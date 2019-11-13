@@ -18,6 +18,7 @@
 	margin: 3px;
 	display: flex;
 	justify-content: center;
+	align-content: center;
 }
 
 .imgCard:nth-child(1),
@@ -45,7 +46,6 @@
 @media only screen and (max-width: 768px) {
 	.imgCard:nth-child(1),
 	.imgCard:nth-child(3) {
-		height: 100%;
 		width: 100vw;
 	}
 
@@ -55,7 +55,7 @@
 		height: auto;
 	}
 	.imgCard:nth-child(2) {
-		height: 100%;
+		/* display: none; */
 		width: 100vw;
 	}
 
