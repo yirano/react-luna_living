@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-luna_living/precache-manifest.94136301ba915606847d9e13fbb62a90.js"
+  "/react-luna_living/precache-manifest.34f6262f72d360f559d0346225efdfe8.js"
 );
 
 self.addEventListener('message', (event) => {

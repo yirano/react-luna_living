@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-luna_living/static/css/main.92905c53.chunk.css",
-    "main.js": "/react-luna_living/static/js/main.19b8059c.chunk.js",
-    "main.js.map": "/react-luna_living/static/js/main.19b8059c.chunk.js.map",
+    "main.css": "/react-luna_living/static/css/main.28da5875.chunk.css",
+    "main.js": "/react-luna_living/static/js/main.ec5a2e6b.chunk.js",
+    "main.js.map": "/react-luna_living/static/js/main.ec5a2e6b.chunk.js.map",
     "runtime-main.js": "/react-luna_living/static/js/runtime-main.1e19d805.js",
     "runtime-main.js.map": "/react-luna_living/static/js/runtime-main.1e19d805.js.map",
     "static/js/2.e1ecb242.chunk.js": "/react-luna_living/static/js/2.e1ecb242.chunk.js",
     "static/js/2.e1ecb242.chunk.js.map": "/react-luna_living/static/js/2.e1ecb242.chunk.js.map",
     "index.html": "/react-luna_living/index.html",
-    "precache-manifest.94136301ba915606847d9e13fbb62a90.js": "/react-luna_living/precache-manifest.94136301ba915606847d9e13fbb62a90.js",
+    "precache-manifest.34f6262f72d360f559d0346225efdfe8.js": "/react-luna_living/precache-manifest.34f6262f72d360f559d0346225efdfe8.js",
     "service-worker.js": "/react-luna_living/service-worker.js",
-    "static/css/main.92905c53.chunk.css.map": "/react-luna_living/static/css/main.92905c53.chunk.css.map",
+    "static/css/main.28da5875.chunk.css.map": "/react-luna_living/static/css/main.28da5875.chunk.css.map",
     "static/media/clearance-dining.jpeg": "/react-luna_living/static/media/clearance-dining.e4d073f2.jpeg",
     "static/media/clearance-greychairs.jpg": "/react-luna_living/static/media/clearance-greychairs.76d7b4d6.jpg",
     "static/media/clearance-modern.jpg": "/react-luna_living/static/media/clearance-modern.07393aea.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.1e19d805.js",
     "static/js/2.e1ecb242.chunk.js",
-    "static/css/main.92905c53.chunk.css",
-    "static/js/main.19b8059c.chunk.js"
+    "static/css/main.28da5875.chunk.css",
+    "static/js/main.ec5a2e6b.chunk.js"
   ]
 }
